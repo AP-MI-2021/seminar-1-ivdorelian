@@ -92,6 +92,12 @@ def main():
 		else:
 			print('Optiune invalida!')
 
+def f(x, y):
+	return 2*x, y-6
+
+p, q = f(5, 8)
+print(p, q)
+
 test_is_prime()
 main()
 
